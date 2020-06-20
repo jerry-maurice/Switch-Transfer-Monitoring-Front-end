@@ -1,0 +1,34 @@
+/*structure of pages*/
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.side-container {
+    width: 20%;
+}
+
+.column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    width: 75%;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
